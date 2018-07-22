@@ -43,3 +43,7 @@ Output:
 ```
 [1,2,3,4,5,6,7]
 ```
+<<<<<<< HEAD
+=======
+> **Note** : The values of lo and hi can be changed to apply the functions on a subset of the list instead.
+>>>>>>> 6181f586e6c7d41928add4421366a9e193e3e23a

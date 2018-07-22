@@ -12,8 +12,13 @@
     4. [Heapq](./containers/heapq.md)
 2. [Methods]()
     1. [Bisect](./methods/bisect.md)
-    2. [Itertools]()
-    3. [Counters]()
+    2. [Itertools](./methods/itertools.md)
+        1. accumulate
+        2. count
+        3. permutations
+        4. combinations
+        5. combinations with replacement
+    3. [Counters](./methods/Counters.md)
     4. [Miscellaneous]()
         1. GCD
 
