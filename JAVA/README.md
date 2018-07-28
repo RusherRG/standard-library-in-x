@@ -12,11 +12,11 @@
         3. LinkedList
     2. [Queues](./containers/queues.md)
         1. PriorityQueue
-    3. [Maps](./Java_maps.md)
+    3. [Maps](./containers/maps.md)
         1. HashMap
         2. TreeMap
         3. LinkedHashMap
-    4. [Sets](./Sets.md)
+    4. [Sets](./containers/sets.md)
         1. HashSet
         2. LinkedHashSet
         3. TreeSet
@@ -36,22 +36,7 @@
     7. [binarySearch](./Collections/binarySearch.md)
     8. [min](./Collections/min.md)
     9. [max](./Collections/max.md)
-3. Iterators and Methods
-    * [Iterators](./Iterators.md)
-        1. iterator
-        2. listIterator
-        3. for each style
-    * [Essential Methods]()
-        1. Comparator
-        2. equals,hashCode,toString
-        3. size()
-        4. isEmpty()
-        5. pollFirst() & pollLast()
-        6. poll()
- 5. Solutions to problem
-    1. [Second Year Pains-KJCP02]()
-    2. [Sorting Tool-KJCPR]()
-    3. [Snake Eat-SNAKEEAT]()
-    4. [Ipc Trainers-IPCTRAIN]()
-    5. [Chef Subseq-CHEFCODE]()
- 6. [Reference]()
+3. [Iterators](./Iterators.md)
+    1. iterator
+    2. listIterator
+    3. for each style

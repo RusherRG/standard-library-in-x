@@ -10,7 +10,7 @@
     2. [Sets](./containers/sets.md)
     3. [Dictionary](./containers/dictionary.md)
     4. [Heapq](./containers/heapq.md)
-2. [Methods]()
+2. Methods
     1. [Bisect](./methods/bisect.md)
     2. [Itertools](./methods/itertools.md)
         1. accumulate
@@ -21,11 +21,4 @@
     3. [Counters](./methods/Counters.md)
     4. [Miscellaneous]()
         1. GCD
-
-4. Solutions to problem
-    1. [Second Year Pains-KJCP02]()
-    2. [Sorting Tool-KJCPR]()
-    3. [Snake Eat-SNAKEEAT]()
-    4. [Ipc Trainers-IPCTRAIN]()
-    5. [Chef Subseq-CHEFCODE]()
-6. [Reference]()
+3. [Miscellaneous]()

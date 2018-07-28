@@ -1,20 +1,25 @@
 # Dictionary
-Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces.
+Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. It is implemented as a **hash table** and hence most operations such as insertion, deletion and query take O(1) time.
+
 ### clear()
 The syntax of clear() is `dict.clear()`
 The clear() method removes all items from the dictionary. It doesnt take any parameters and doesnt return any value( returns `None`).
+
 Example:
 ```python
 d = {1: "one", 2: "two"}
 d.clear()
 print('d =', d)
 ```
+
 Output:
 ```python
 d = {}
 ```
-Elements can also be removed by assingning empty dictionary `{}`  .
+
+Elements can also be removed by assigning empty dictionary `{}`  .
 However, there is a difference between the two if there is a variable referencing the dictionary.
+
 Example:
 ```python
 d = {1: "one", 2: "two"}
@@ -45,7 +50,8 @@ d1 = {1: 'one', 2: 'two'}
 
 ### copy()
 The syntax of copy() is `dict.copy()`
-They copy() method returns a shallow copy of the dictionary.It doesn't modify the original dictionary.
+They copy() method returns a shallow copy of the dictionary. It doesn't modify the original dictionary. Complexity: O(n)
+
 Example:
 ```python
 original = {1:'one', 2:'two'}
@@ -53,6 +59,7 @@ new = original.copy()
 print('Orignal: ', original)
 print('New: ', new)
 ```
+
 Output:
 ```python
 Orignal:  {1: 'one', 2: 'two'}
@@ -69,6 +76,7 @@ The fromkeys() method takes two parameters:
 
 The fromkeys() method returns a new dictionary with the given sequence of elements as the keys of the dictionary.
 If the value argument is set, each element of the newly created dictionary is set to the provided value.
+
 Example:
 ```python
 keys = {'a', 'e', 'i', 'o', 'u' }
@@ -117,6 +125,7 @@ Salary:  0.0
 The syntax of items() method is:
 `dictionary.items()`
 The items() method returns a view object that displays a list of dictionary's (key, value) tuple pairs.
+
 Example:
 ```python
 abc = { 'One': 1, 'Two': 2, 'Three': 3 }
@@ -133,6 +142,7 @@ dict_items([('One', 1), ('Two', 2), ('Three', 3)])
 The syntax of keys() is:
 `dict.keys()`
 The keys() method returns a view object that displays a list of all the keys in the dictionary. When the dictionary is changed, the view object also reflect these changes.
+
 Example:
 ```python
 person = {'name': 'Abc', 'age': 21, 'salary': 1200.0}
@@ -229,6 +239,7 @@ The syntax of update() is:
 The update() method updates the dictionary with the elements from another dictionary object or from an iterable of key/value pairs. It adds element(s) to the dictionary if the key is not in the dictionary. If the key is in the dictionary, it updates the key with the new value.
 The update() method takes either a dictionary or an iterable object of key/value pairs (generally tuples).
 If update() is called without passing parameters, the dictionary remains unchanged.
+
 Example:
 ```python
 d = {1: "one", 2: "three"}
@@ -239,7 +250,9 @@ print(d)
 d1 = {3: "three"}
 
 d.update(d1)
-print(d)```
+print(d)
+```
+
 Output:
 ```{1: 'one', 2: 'two'}
 {1: 'one', 2: 'two', 3: 'three'}
@@ -249,6 +262,7 @@ Output:
 The syntax of values() is:
 `dictionary.values()`
 The values() method returns a view object that displays a list of all the values in the dictionary.
+
 Example:
 ```python
 sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
@@ -266,6 +280,7 @@ The all() method takes a single parameter:
 - iterable - any iterable (list, tuple, dictionary, etc.) which contains the elements.
 
 If all keys (not values) are true or the dictionary is empty, all() returns True. Else, it returns false for all other cases.
+
 Example:
 ```python
 s = {0: 'False', 1: 'False'}
@@ -281,7 +296,7 @@ s = {'0': 'True'}
 print(all(s))
 ```
 Output:
-```python
+```
 False
 True
 False
@@ -294,6 +309,7 @@ True
 The syntax of any() is:
 `any(iterable)`
 If all keys (not values) are false, any() returns `False`. If at least one key is true, any() returns `True`.
+
 Example:
 ```python
 d = {0: 'False'}
@@ -309,7 +325,7 @@ d = {'0': 'False'}
 print(any(d))
 ```
 Output:
-```python
+```
 False
 True
 False
@@ -322,6 +338,7 @@ The syntax of len() is:
 `len(s)`
 The len() function returns the number of items (length) of an object.
 Failing to pass an argument or passing an invalid argument will raise a `TypeError` exception.
+
 Example:
 ```python
 dict = {'Name': 'Manni', 'Age': 7, 'Class': 'First'}
