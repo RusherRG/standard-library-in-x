@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 <h1 align="center">JAVA Collections Framework</h1>
@@ -39,4 +40,48 @@
 3. [Iterators](./Iterators.md)
     1. iterator
     2. listIterator
+=======
+<div align="center">
+
+<h1 align="center">JAVA Collections Framework</h1>
+
+</div>
+
+### Index
+1. Containers
+    1. [Lists](./containers/lists.md)
+        1. ArrayList
+        2. Vector
+        3. LinkedList
+    2. [Queues](./containers/queues.md)
+        1. PriorityQueue
+    3. [Stack](./containers/stack.md)
+    4. [Maps](./containers/maps.md)
+        1. HashMap
+        2. TreeMap
+        3. LinkedHashMap
+    5. [Sets](./containers/sets.md)
+        1. HashSet
+        2. LinkedHashSet
+        3. TreeSet
+    6. Pairs
+        1. [Hashing](./Pair/hashing.md)
+        2. [Pair](./Pair/pair.md)
+        3. [Utilities](./Pair/utilities.md)
+        4. [sorting](./Pair/sorting.md)
+    7. [String/StringBuffers](./Strings.md)
+2. Collections
+    1. [reverse](./Collections/reverse.md)
+    2. [Sort](./Collections/sort.md)
+    3. [reverseOrder](./Collections/reverseOrder.md)
+    4. [shuffle](./Collections/shuffle.md)
+    5. [rotate](./Collections/rotate.md)
+    6. [swap](./Collections/swap.md)
+    7. [binarySearch](./Collections/binarySearch.md)
+    8. [min](./Collections/min.md)
+    9. [max](./Collections/max.md)
+3. [Iterators](./Iterators.md)
+    1. iterator
+    2. listIterator
+>>>>>>> 3be3264eae84fa93890cb1b9abfad8b78b91b639
     3. for each style
